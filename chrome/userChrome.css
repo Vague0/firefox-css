@@ -1,0 +1,13 @@
+
+.titlebar-spacer[type="pre-tabs"] { display: none !important; }
+
+#tabbrowser-tabs {
+    border-inline-start: 0 !important;
+    padding-inline-start: 0 !important;
+    margin-inline-start: 0 !important;
+}
+/*
+:root:not([privatebrowsingmode="temporary"]):not([firefoxviewhidden]) :is(#firefox-view-button, #wrapper-firefox-view-button) + #tabbrowser-tabs {
+    border-inline-start: 0px !important;
+}
+*/
