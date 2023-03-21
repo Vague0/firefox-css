@@ -1,2 +1,2 @@
 # firefox-css
-Some QoL changes to new firefox install.
+Some QoL changes to a new firefox install.
