@@ -6,8 +6,17 @@
     padding-inline-start: 0 !important;
     margin-inline-start: 0 !important;
 }
+
 /*
 :root:not([privatebrowsingmode="temporary"]):not([firefoxviewhidden]) :is(#firefox-view-button, #wrapper-firefox-view-button) + #tabbrowser-tabs {
     border-inline-start: 0px !important;
 }
 */
+
+#urlbar-container {
+    --toolbar-field-focus-border-color: rgb(6, 91, 225);
+}
+
+:root {
+    --focus-outline-width: 1px !important;
+}
