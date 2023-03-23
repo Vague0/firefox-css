@@ -1,28 +1,27 @@
 
-:root {
-    --focus-outline-width: 1px !important;
-}
+:root { --focus-outline-width: 1px !important; }
 
-panel {
-    padding-top: 4px;
-}
+panel { padding-top: 4px; }
 
-.panel-no-padding {
-    --arrowpanel-border-color: rgb(6, 91, 225);
-}
+.panel-no-padding { --arrowpanel-border-color: rgb(111, 67, 208); }
 
-.titlebar-spacer[type="pre-tabs"] {
-    display: none !important;
-}
+.titlebar-spacer[type="pre-tabs"] { display: none !important; }
+
+spacer[part="overflow-start-indicator"], spacer[part="overflow-end-indicator"] { display: none; }
 
 #tabbrowser-tabs {
     border-inline-start: 0 !important;
     padding-inline-start: 0 !important;
     margin-inline-start: 0 !important;
 
-    --lwt-tab-line-color: rgb(6, 91, 225);
+    --lwt-tab-line-color: rgb(111, 67, 208);
 }
 
 #urlbar-container {
-    --toolbar-field-focus-border-color: rgb(6, 91, 225);
+    --toolbar-field-focus-border-color: rgb(111, 67, 208);
+    --arrowpanel-border-color: rgb(111, 67, 208) !important;
+}
+
+#navigator-toolbox {
+    border-bottom: none !important;
 }
