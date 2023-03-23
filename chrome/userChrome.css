@@ -1,4 +1,16 @@
 
+:root {
+    --focus-outline-width: 1px !important;
+}
+
+panel {
+    padding-top: 4px;
+}
+
+.panel-no-padding {
+    --arrowpanel-border-color: rgb(6, 91, 225);
+}
+
 .titlebar-spacer[type="pre-tabs"] {
     display: none !important;
 }
@@ -11,32 +23,6 @@
     --lwt-tab-line-color: rgb(6, 91, 225);
 }
 
-/*
-:root:not([privatebrowsingmode="temporary"]):not([firefoxviewhidden]) :is(#firefox-view-button, #wrapper-firefox-view-button) + #tabbrowser-tabs {
-    border-inline-start: 0px !important;
-}
-
-[part="content"]{border: none !important}
-
-#appMenu-popup {
-  --arrowpanel-background: gray;
-  --arrowpanel-color: yellow;
-  --arrowpanel-border-color: blue;
-  --panel-separator-color: purple;
-  --panel-description-color: orange;
-  --button-hover-bgcolor: red;
-  --button-active-bgcolor: black;
-}
-*/
-
 #urlbar-container {
     --toolbar-field-focus-border-color: rgb(6, 91, 225);
-}
-
-:root {
-    --focus-outline-width: 1px !important;
-}
-
-#appMenu-popup {
-    --arrowpanel-border-color: rgb(6, 91, 225);
 }
