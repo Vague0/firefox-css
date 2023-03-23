@@ -5,3 +5,8 @@
     }
 }
 
+.customize-menu {
+    border-radius: 10px;
+    margin-right: 10px;
+    height: 99% !important;
+}
