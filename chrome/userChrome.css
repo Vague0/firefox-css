@@ -9,6 +9,10 @@ panel { padding-top: 4px; }
 
 spacer[part="overflow-start-indicator"], spacer[part="overflow-end-indicator"] { display: none; }
 
+#firefox-view-button {
+    margin: auto !important;
+}
+
 #tabbrowser-tabs {
     border-inline-start: 0 !important;
     padding-inline-start: 0 !important;
