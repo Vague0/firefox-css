@@ -1,5 +1,9 @@
 
-:root { --focus-outline-width: 1px !important; }
+#main-window {
+    --focus-outline-width: 1px !important;
+}
+
+#firefox-view-button { margin: auto !important; }
 
 panel { padding-top: 4px; }
 
@@ -9,10 +13,6 @@ panel { padding-top: 4px; }
 
 spacer[part="overflow-start-indicator"], spacer[part="overflow-end-indicator"] { display: none; }
 
-#firefox-view-button {
-    margin: auto !important;
-}
-
 #tabbrowser-tabs {
     border-inline-start: 0 !important;
     padding-inline-start: 0 !important;
@@ -21,11 +21,19 @@ spacer[part="overflow-start-indicator"], spacer[part="overflow-end-indicator"] {
     --lwt-tab-line-color: rgb(111, 67, 208);
 }
 
+.titlebar-button{
+    list-style-image: none !important;
+    appearance: auto !important;
+}
+
+.titlebar-min { -moz-default-appearance: -moz-window-button-minimize !important; }
+.titlebar-max { -moz-default-appearance: -moz-window-button-maximize !important; }
+.titlebar-restore { -moz-default-appearance: -moz-window-button-restore !important; }
+.titlebar-close { -moz-default-appearance: -moz-window-button-close !important; }
+
 #urlbar-container {
     --toolbar-field-focus-border-color: rgb(111, 67, 208);
     --arrowpanel-border-color: rgb(111, 67, 208) !important;
 }
 
-#navigator-toolbox {
-    border-bottom: none !important;
-}
+#navigator-toolbox { border-bottom: none !important; }
