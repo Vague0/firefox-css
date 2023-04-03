@@ -1,24 +1,20 @@
 
 #main-window {
+    --toolbar-field-focus-border-color: rgb(111, 67, 208) !important;
+    --arrowpanel-border-color: rgb(111, 67, 208) !important;
     --focus-outline-width: 1px !important;
+    --focus-outline-color: rgb(111, 67, 208) !important;
 }
 
-#firefox-view-button { margin: auto !important; }
-
-panel { padding-top: 4px; }
-
-.panel-no-padding { --arrowpanel-border-color: rgb(111, 67, 208); }
-
-.titlebar-spacer[type="pre-tabs"] { display: none !important; }
-
-spacer[part="overflow-start-indicator"], spacer[part="overflow-end-indicator"] { display: none; }
+.toolbarbutton-1:not([widget-id]) { margin: auto !important; }
+spacer[part="overflow-start-indicator"], spacer[part="overflow-end-indicator"], .titlebar-spacer[type="pre-tabs"] { display: none; }
+panel { padding-top: 7px; }
 
 #tabbrowser-tabs {
+    --lwt-tab-line-color: rgb(111, 67, 208);
     border-inline-start: 0 !important;
     padding-inline-start: 0 !important;
     margin-inline-start: 0 !important;
-
-    --lwt-tab-line-color: rgb(111, 67, 208);
 }
 
 .titlebar-button{
@@ -31,9 +27,35 @@ spacer[part="overflow-start-indicator"], spacer[part="overflow-end-indicator"] {
 .titlebar-restore { -moz-default-appearance: -moz-window-button-restore !important; }
 .titlebar-close { -moz-default-appearance: -moz-window-button-close !important; }
 
-#urlbar-container {
-    --toolbar-field-focus-border-color: rgb(111, 67, 208);
-    --arrowpanel-border-color: rgb(111, 67, 208) !important;
+#navigator-toolbox { border-bottom: none !important; }
+
+/*right-click popups
+menuseparator {
+    border-color: var(--panel-separator-color, #50505090) !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
 }
 
-#navigator-toolbox { border-bottom: none !important; }
+menupopup{background: var(--gradient) !important; border-radius: 6px !important;}
+#PlacesToolbar menupopup { padding: 0px !important;}
+#PlacesToolbar menupopup menupopup{ margin-inline-start: 0px !important; }
+
+.menupopup-arrowscrollbox {
+    background: var(--arrowpanel-background, #50505090) !important;
+    background-color: var(--arrowpanel-background, #50505090) !important;
+    color: var(--arrowpanel-color, #50505090) !important;
+    border: 1px solid transparent !important;
+    border-radius: 6px !important;
+    margin: 0px !important;
+    background-clip: padding-box !important;
+    --menuitem-hover-background-color: color-mix(in srgb, var(--button-hover-bgcolor) 95%, var(--organizer-color, var(--arrowpanel-color))) !important;
+}
+
+.menupopup {
+    --panel-color: var(--arrowpanel-color, FieldText) !important;
+    --panel-border-color: var(--arrowpanel-border-color, Field)!important;
+    --panel-background: var(--arrowpanel-background, Field) !important;
+    --menu-color: var(--arrowpanel-color, FieldText) !important;
+    --menu-border-color: var(--panel-separator-color, Field) !important;
+}
+*/
