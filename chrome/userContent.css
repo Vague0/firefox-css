@@ -6,13 +6,17 @@
 }
 
 .customize-menu {
-    border-radius: 10px;
+    border-top-left-radius: 8px;
+    /*
     margin-top: 2px;
     margin-right: 10px;
-    height: 99% !important;
+    height: 99% !important
+    */
 }
 
+/*
 .personalize-button {
     top: 22px !important;
     inset-inline-end: 42px !important;
 }
+*/
