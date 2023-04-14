@@ -1,2 +1,2 @@
 # firefox-css
-Some QoL changes to a new firefox install (version 111).
+Some QoL changes to a new firefox install (dark theme).
