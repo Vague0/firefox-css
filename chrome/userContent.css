@@ -1,0 +1,17 @@
+/*.top-site-outer:is(.active, :focus, :hover) {
+    height: 120px;
+    background: #0d0d0d !important;
+}
+
+.tile {
+    margin-bottom: 10px !important;
+}
+*/
+.search-inner-wrapper {
+    display: none !important;
+}
+
+.customize-menu {
+    border-top-left-radius: 8px;
+    margin-top: 2px;
+}

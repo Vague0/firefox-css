@@ -1,0 +1,41 @@
+#main-window {
+    --toolbar-field-focus-border-color: #15F4EE !important;
+    --arrowpanel-border-color: #15F4EE !important;
+    --focus-outline-width: 1px !important;
+    --focus-outline-color: #15F4EE !important;
+}
+
+#tabbrowser-tabs {
+    border-inline-start: 0 !important;
+    padding-inline-start: 0 !important;
+    margin-inline-start: 0 !important;
+}
+
+.toolbarbutton-1:not([widget-id]) { margin: auto !important; }
+spacer[part="overflow-start-indicator"], spacer[part="overflow-end-indicator"], .titlebar-spacer[type="pre-tabs"] { display: none; }
+panel { padding-top: 7px; }
+
+
+#alltabs-button, #new-tab-button, #scrollbutton-up, #tabs-newtab-button, #scrollbutton-down {
+    fill: #0073FF !important;
+}
+
+.tab-background[selected] { background: transparent !important }
+.tabbrowser-tab[soundplaying] .tab-background { outline: 1px solid #ffaa33 !important; }
+.tabbrowser-tab[selected] .tab-background { outline: 1px solid #ff5f1f !important; }
+.tabbrowser-tab[muted] .tab-background { outline: 1px solid #949494 !important; }
+
+#navigator-toolbox { border-bottom: none !important; }
+
+/* Dark Theme Window Buttons
+.titlebar-button{
+    list-style-image: none !important;
+    appearance: auto !important;
+}
+
+// ????
+.titlebar-min { -moz-default-appearance: -moz-window-button-minimize !important; }
+.titlebar-max { -moz-default-appearance: -moz-window-button-maximize !important; }
+.titlebar-restore { -moz-default-appearance: -moz-window-button-restore !important; }
+.titlebar-close { -moz-default-appearance: -moz-window-button-close !important; }
+*/
