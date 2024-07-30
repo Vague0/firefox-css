@@ -25,6 +25,12 @@
 .search-inner-wrapper {
     display: none !important;
 }
+/* scroll down - stories and activities
+.search-wrapper {
+    padding-bottom: 90px !important;
+    border-bottom: none !important;
+    z-index: 0 !important;
+}*/
 
 .tile {
     margin-bottom: 10px !important;
