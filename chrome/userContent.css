@@ -1,62 +1,59 @@
 @-moz-document url-prefix(about:home), url-prefix(about:newtab) {
-    .click-target-container *, .top-sites-list * {
-        color: #fff !important ;
-    }/*
+  .click-target-container *,
+  .top-sites-list * {
+    color: #fff !important;
+  } /*
     body {
-        background: url("backgroundImg.jpg") !important;
+        background: url("c.jpg") !important;
         background-size: cover !important;
         background-repeat: no-repeat !important;
         background-position: center !important;
         background-attachment: fixed !important;
     }*/
-    .top-site-inner, .section-title {
-        text-shadow:
-        0.05em 0 black,
-        0 0.05em black,
-        -0.05em 0 black,
-        0 -0.05em black,
-        -0.05em -0.05em black,
-        -0.05em 0.05em black,
-        0.05em -0.05em black,
-        0.05em 0.05em black;
-    }
-}
+  .top-site-inner,
+  .section-title {
+    text-shadow: 0.05em 0 black, 0 0.05em black, -0.05em 0 black,
+      0 -0.05em black, -0.05em -0.05em black, -0.05em 0.05em black,
+      0.05em -0.05em black, 0.05em 0.05em black;
+  }
 
-.search-inner-wrapper {
+  .search-inner-wrapper {
     display: none !important;
-}
-/* scroll down - stories and activities
-.search-wrapper {
-    background-color: transparent !important;
-    padding-bottom: 90px !important;
-    border-bottom: none !important;
-    z-index: 0 !important;
-}*/
+  }
+  /* scroll down - stories and activities
+    .search-wrapper {
+        background-color: transparent !important;
+        padding-bottom: 90px !important;
+        border-bottom: none !important;
+        z-index: 0 !important;
+    }*/
 
-.tile {
+  .tile {
     margin-bottom: 10px !important;
-    border: 1px solid #15F4EE;
+    border: 1px solid #15f4ee;
     background-color: rgba(0, 0, 0, 0.4) !important;
     transition: 0.2s;
     /*backdrop-filter: blur(4px);
-    box-shadow: 0 2px 6px #15F4EE !important;*/
-}
+        box-shadow: 0 2px 6px #15F4EE !important;*/
+  }
 
-.tile:is(:focus, :hover) {
+  .tile:is(:focus, :hover) {
     transform: scale(1.3);
     transition: transform 0.2s linear;
-}
-/*
-.tile:active {
-    transform: scale(1);
-    transition: transform 0.2s linear;
-}
-*/
-.top-site-outer, .top-site-icon {
+  }
+  /*
+    .tile:active {
+        transform: scale(1);
+        transition: transform 0.2s linear;
+    }
+    */
+  .top-site-outer,
+  .top-site-icon {
     background-color: transparent !important;
-}
+  }
 
-.customize-menu {
+  .customize-menu {
     border-top-left-radius: 8px;
     margin-top: 0px;
+  }
 }
